@@ -9,7 +9,7 @@ def main():
     elif (number%5) == 0:
       print("buzz")
 
-    elif (number%3) == 0:
+    elif (number%3) and (number%5) == 0:
       print("fizzbuzz")
 
     else:
